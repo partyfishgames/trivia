@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Trivia questions for the PartyFish game suite.",
   "scripts": {
+    "pretest": "node build.js",
     "test": "tap test"
   },
   "repository": {

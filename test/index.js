@@ -10,7 +10,7 @@ test("trivia", function (t) {
         t.ok(Array.isArray(qa["incorrect_answers"]), "each question should contain array of incorrect answers");
         qa["incorrect_answers"].forEach((ia) => {
             t.ok(typeof ia === "string", "each incorrect answer should be a string");
-        })
+        });
         t.ok(Object.keys(qa).length === 3, "each question should only contain question, correct answer, and incorrect answers");
     });
     t.end();
