@@ -5031,5 +5031,13 @@
       "Iceland",
       "Bhutan"
     ]
+  },
+  {
+    "question": "Which planet is the hottest in our solar system?",
+    "correct_answer": "Venus",
+    "incorrect_answers": [
+      "Mercury",
+      "Saturn"
+    ]
   }
 ]
